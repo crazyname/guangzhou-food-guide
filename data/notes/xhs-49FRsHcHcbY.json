@@ -1,0 +1,121 @@
+{
+  "id": "xhs-49FRsHcHcbY",
+  "status": "想去",
+  "review_status": "未亲自探店",
+  "record_created_at": "2026-11-15",
+  "record_timezone": "Asia/Shanghai",
+  "shop": {
+    "name": "二姐小伙夫·云南小食堂",
+    "branch": "体育西店（公开同名门店，待核对原笔记确切分店）",
+    "city": "广州市",
+    "district": "天河区",
+    "business_area": "六运小区附近 / 体育西商圈",
+    "address": null,
+    "address_hint": "广州市天河区六运小区附近，体育西商圈；未找到可靠的街道门牌号",
+    "map_url": null,
+    "category": [
+      "云南菜",
+      "云南小食堂",
+      "中式餐馆"
+    ],
+    "average_spend_cny": null,
+    "average_spend_basis": "未找到对应体育西门店可信、近期的客单价/人均数据，不能套用其他分店或附近餐厅价格",
+    "business_hours": null,
+    "visit_notes": "据用户转述笔记：饭点常需排队，临时小桌也容易坐满；是否当前仍如此需要到店核实"
+  },
+  "recommendation": {
+    "item": "鸡豆花、傣味云吞、板筋",
+    "combination": [],
+    "primary_dishes": [
+      {
+        "name": "鸡豆花",
+        "source_type": "博主推荐（用户转述）",
+        "notes": "传统川菜；博主描述其轻盈绵密，如云朵般的鸡肉羹/鸡肉凝冻，撒桂花享用；“国宴级别”为博主评价，非本店等级认证"
+      },
+      {
+        "name": "傣味云吞",
+        "source_type": "博主推荐（用户转述）",
+        "notes": "清汤云吞配青柠、刺芹调成的鲜酸绿汁，加入后云吞皮吸汁更鲜明"
+      },
+      {
+        "name": "板筋",
+        "source_type": "博主推荐（用户转述）",
+        "notes": "下饭，博主形容凭这道菜连吃两碗饭；具体肉类或菜名以门店菜单为准"
+      }
+    ],
+    "comment_dishes": [
+      {
+        "name": "爆炒小瓜",
+        "source_type": "评论区推荐（用户转述）"
+      },
+      {
+        "name": "猪板筋",
+        "source_type": "评论区推荐（用户转述）"
+      },
+      {
+        "name": "蜂蜜普洱辣子鸡",
+        "source_type": "评论区推荐（用户转述）"
+      }
+    ],
+    "source_opinion": "据用户转述，博主重点推荐鸡豆花、傣味云吞与板筋，饭点排队显著。",
+    "comment_opinion": "据用户转述，部分评论称喜欢傣味馄饨，也有四川网友指出鸡豆花为四川菜；这不是独立验证的评论采集结果。",
+    "personal_rating": null,
+    "notes": "板筋与评论推荐的猪板筋可能是同一道菜，但没有菜单证据，不合并。鸡豆花属于川菜传统菜式，不将其认定为云南菜。"
+  },
+  "source": {
+    "platform": "小红书",
+    "author": null,
+    "shared_url": "https://xhslink.cn/o/49FRsHcHcbY",
+    "resolved_note_id": null,
+    "shortlink_id": "49FRsHcHcbY",
+    "published_at": null,
+    "title_supplied": "在广州街边小店吃到国宴神菜鸡豆花",
+    "evidence": [
+      "用户在对话中提供的店名修正、菜品描述和评论摘要",
+      "公开网络中可见的同名体育西店线索"
+    ],
+    "page_read_status": "2026-11-15 尝试读取小红书分享短链接，但浏览工具未成功打开原文/全部图片和评论；本记录的菜品与评价依据用户转述，并非浏览器逐条抓取",
+    "source_accessed_at": "2026-11-15",
+    "public_verification_urls": [
+      "https://www.junhuidasha.cn/",
+      "https://tousu.sina.com.cn/complaint/view/17379490519?sld=3cbe8963509afba932430e2ba54be097"
+    ]
+  },
+  "verification": {
+    "confirmed_from_user": [
+      "店名更正为二姐小伙夫",
+      "位于广州六运小区附近",
+      "鸡豆花、傣味云吞、板筋为博主推荐",
+      "爆炒小瓜、猪板筋、蜂蜜普洱辣子鸡为评论补充",
+      "饭点排队情况来自用户转述"
+    ],
+    "independently_supported": [
+      "公开信息存在‘二姐小伙夫·云南小食堂（体育西店）’这一同名门店",
+      "鸡豆花属于传统川菜"
+    ],
+    "unverified": [
+      "原笔记完整正文、图片及评论",
+      "小红书原笔记ID及博主账号",
+      "体育西店是否就是笔记拍摄的确切分店",
+      "详细门牌号",
+      "该店人均及菜品单价",
+      "近期营业时间与是否仍在营业"
+    ],
+    "caution": "另一名称‘云伙夫·云南菜’为用户主动更正的错误称呼，不应建立独立门店。六运小区部分餐饮门店2026年有变动，出行前应确认营业状态。",
+    "checked_at": "2026-11-15"
+  },
+  "tags": [
+    "广州",
+    "天河区",
+    "六运小区",
+    "体育西",
+    "二姐小伙夫",
+    "云南菜",
+    "鸡豆花",
+    "川菜",
+    "傣味云吞",
+    "板筋",
+    "排队",
+    "想去"
+  ]
+}
