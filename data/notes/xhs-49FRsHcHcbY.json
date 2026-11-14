@@ -102,7 +102,19 @@
       "近期营业时间与是否仍在营业"
     ],
     "caution": "另一名称‘云伙夫·云南菜’为用户主动更正的错误称呼，不应建立独立门店。六运小区部分餐饮门店2026年有变动，出行前应确认营业状态。",
-    "checked_at": "2026-11-15"
+    "checked_at": "2026-11-15",
+    "dianping_review": {
+      "checked_at": "2026-11-15",
+      "direct_shop_url": null,
+      "average_spend_cny": null,
+      "rating": null,
+      "review_count": null,
+      "status": "检索大众点评公开商户页及搜索索引，未取得体育西店可直接核验的商户详情；并非证明其不存在",
+      "other_branches_not_substituted": [
+        "番禺万达店",
+        "深圳仁恒梦中心店"
+      ]
+    }
   },
   "tags": [
     "广州",
