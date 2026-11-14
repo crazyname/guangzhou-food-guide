@@ -135,16 +135,21 @@ COMMENT_JS = r'''(elements) => elements.map(node => {
 
 
 def snapshot(page) -> list[dict]:
+    # Top-level comments and replies may be rendered in separate DOM structures.
+    found = {}
     for selector in COMMENTS:
         try:
             loc = page.locator(selector)
             if loc.count():
-                rows = loc.evaluate_all(COMMENT_JS)
-                return [dict(row, key=('id:' + row['domid'] if row['domid'] else fingerprint(row['author']+'\n'+row['text'])))
-                        for row in rows if row['text']]
+                for row in loc.evaluate_all(COMMENT_JS):
+                    if not row['text']:
+                        continue
+                    key = ('id:' + row['domid'] if row['domid']
+                           else fingerprint(row['author'] + '\n' + row['text']))
+                    found[key] = dict(row, key=key)
         except PWError:
             continue
-    return []
+    return list(found.values())
 
 
 def comment_root(page):
