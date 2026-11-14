@@ -1,0 +1,14 @@
+# Local evidence and sessions must never be committed
+captures/
+**/captures/
+.xhs-profile/
+.browser-profile/
+*.zip
+*.sqlite
+*.har
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
