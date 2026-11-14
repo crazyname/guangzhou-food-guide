@@ -29,7 +29,22 @@
         "address": null,
         "verification_status": "作者评论提及，未确定城市及具体门店；不得自动视为广州白鹅潭万象城"
       }
-    ]
+    ],
+    "phone": "15323341001",
+    "phone_source_url": "https://www.openrice.com/zh-cn/guangzhou/r-%E9%83%91%E4%B8%96%E9%9A%86-%E5%A4%A9%E6%B2%B3%E8%B7%AF-%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83-%E6%B3%B0%E5%9B%BD%E8%8F%9C-%E7%94%9C%E5%93%81%E9%A5%AE%E6%96%99-r10541982",
+    "price_band_reference": {
+      "band": "¥40以下",
+      "platform": "OpenRice",
+      "scope": "平台价格档位；不是人均或黑芝麻豆奶单品售价",
+      "verified_at": "2026-11-15",
+      "source_url": "https://www.openrice.com/zh-cn/guangzhou/r-%E9%83%91%E4%B8%96%E9%9A%86-%E5%A4%A9%E6%B2%B3%E8%B7%AF-%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83-%E6%B3%B0%E5%9B%BD%E8%8F%9C-%E7%94%9C%E5%93%81%E9%A5%AE%E6%96%99-r10541982"
+    },
+    "brand_product_price_reference": {
+      "min_cny": 16,
+      "max_cny": 34,
+      "scope": "品牌部分产品参考单价（2025年11月行业报道），非本店实时菜单与具体饮品价格",
+      "source_url": "https://www.10100.com/article/43392521"
+    }
   },
   "recommendation": {
     "item": "黑芝麻豆奶冰（笔记描述，正式菜单名待核实）",
@@ -76,7 +91,10 @@
     "verification_urls": [
       "https://xhslink.cn/o/6fC6qdVSi8A",
       "https://www.parccentral.com.hk/en/restaurants/498",
-      "https://www.chinaventure.com.cn/news/116-20260109-389693.html"
+      "https://www.chinaventure.com.cn/news/116-20260109-389693.html",
+      "https://www.openrice.com/zh-cn/guangzhou/r-%E9%83%91%E4%B8%96%E9%9A%86-%E5%A4%A9%E6%B2%B3%E8%B7%AF-%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83-%E6%B3%B0%E5%9B%BD%E8%8F%9C-%E7%94%9C%E5%93%81%E9%A5%AE%E6%96%99-r10541982",
+      "https://www.10100.com/article/43392521",
+      "https://m.thepaper.cn/newsDetail_forward_32349328"
     ]
   },
   "verification": {
@@ -98,7 +116,19 @@
       "笔记绝对发表时间"
     ],
     "notes": "“妈嘟太好吃”是笔记语气词，不是品牌；万象城存在跨城市歧义，不可误关联广州白鹅潭万象城。",
-    "checked_at": "2026-11-15"
+    "checked_at": "2026-11-15",
+    "dianping_review": {
+      "checked_at": "2026-11-15",
+      "direct_shop_url": null,
+      "average_spend_cny": null,
+      "rating": null,
+      "status": "尝试检索网页与公开索引；未取得可直接核验的本店大众点评商户页面",
+      "indirect_report": {
+        "source_url": "https://m.thepaper.cn/newsDetail_forward_32349328",
+        "published_at": "2026-01-09",
+        "summary": "媒体引用大众点评的郑世隆云顶泰奶冰历史排队反馈，制作时间长；非实时情况"
+      }
+    }
   },
   "tags": [
     "广州",
