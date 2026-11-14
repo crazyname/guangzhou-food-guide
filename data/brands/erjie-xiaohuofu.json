@@ -1,0 +1,139 @@
+{
+  "brand_id": "erjie-xiaohuofu",
+  "brand_name": "二姐小伙夫·云南小食堂",
+  "brand_aliases": [
+    "二姐小伙夫",
+    "二姐小伙夫云南菜",
+    "二姐小伙夫小锅米线"
+  ],
+  "city_scope": "广州市（不收录其他城市）",
+  "updated_at": "2026-11-15",
+  "complete_inventory_confirmed": false,
+  "branch_count_included": 6,
+  "branches": [
+    {
+      "branch_id": "erjie-tiyuxi",
+      "name": "体育西店",
+      "district": "天河区",
+      "business_area": "六运小区附近 / 体育西",
+      "address": null,
+      "area_hint": "广州六运小区附近；尚未核实准确门牌号",
+      "address_precision": "仅片区定位",
+      "phone": null,
+      "hours": null,
+      "average_spend_cny": null,
+      "status": "公开目录与用户描述均有线索；近期实际营业未独立核实",
+      "confidence": "较高：同名商户与区域明确，但缺少精确门牌",
+      "source_urls": [
+        "https://www.junhuidasha.cn/"
+      ],
+      "recommendation_note_ids": [
+        "xhs-49FRsHcHcbY"
+      ],
+      "comment": "用户推荐鸡豆花、傣味云吞、板筋；评论区补充爆炒小瓜、猪板筋、蜂蜜普洱辣子鸡"
+    },
+    {
+      "branch_id": "erjie-panyu-wanda",
+      "name": "番禺万达店",
+      "district": "番禺区",
+      "business_area": "南村万博",
+      "address": "中国广东省广州市番禺区汉溪大道东万达金街59号",
+      "address_precision": "第三方游记所列店铺门牌，尚无官方交叉核验",
+      "phone": null,
+      "hours": null,
+      "average_spend_cny": null,
+      "price_reference": {
+        "label": "HKD 40+",
+        "kind": "游记个人消费描述，香港币计价；不作为官方人均或人民币人均"
+      },
+      "status": "有明确门店与地址的第三方游记，但未实时确认是否仍营业",
+      "confidence": "中：第三方实地游记",
+      "source_urls": [
+        "https://tw.trip.com/moments/poi-panyu-wanda-plaza-32470095/"
+      ],
+      "recommendation_note_ids": [],
+      "comment": "第三方推荐傣味酸菜鱼、原味小锅米线；不是用户原笔记的推荐"
+    },
+    {
+      "branch_id": "erjie-hanxi-k11",
+      "name": "汉溪K11店",
+      "district": "番禺区",
+      "business_area": "汉溪长隆",
+      "mall": "广州汉溪K11购物艺术中心",
+      "address": null,
+      "mall_address": "中国广东省广州市番禺区汉溪大道东178号",
+      "address_precision": "仅商场地址，店内楼层及铺位待核实",
+      "phone": null,
+      "hours": null,
+      "average_spend_cny": null,
+      "status": "2026-10-08商业报道明确列为入驻品牌；实际营业待核实",
+      "confidence": "较高：2026年商业报道，缺店铺号",
+      "source_urls": [
+        "https://m.winshang.com/news742488.html",
+        "https://www.amap.com/place/B0L27MJZLW"
+      ],
+      "recommendation_note_ids": []
+    },
+    {
+      "branch_id": "erjie-meilin",
+      "name": "美林M·LIVE天地店",
+      "district": "天河区",
+      "business_area": "三溪 / 东圃",
+      "mall": "美林M·LIVE天地",
+      "address": null,
+      "mall_address": "中国广东省广州市天河区黄埔大道东663号",
+      "address_precision": "仅商场地址，店铺具体座栋/楼层待核实",
+      "phone": null,
+      "hours": null,
+      "average_spend_cny": null,
+      "status": "2025-08商场品牌引进报道有入驻记录；2026营业状态待核实",
+      "confidence": "较高：商业媒体入驻资料，未确认实时营业",
+      "source_urls": [
+        "https://news.sina.com.cn/sx/2025-08-18/detail-infmkumz1406719.shtml",
+        "https://www.amap.com/place/B0HD39PADN"
+      ],
+      "recommendation_note_ids": []
+    },
+    {
+      "branch_id": "erjie-pazhou",
+      "name": "琶洲店",
+      "district": "海珠区",
+      "business_area": "琶洲新村",
+      "name_as_listed": "二姐小伙夫小锅米线(琶洲店)",
+      "address": "中国广东省广州市海珠区新港东琶洲新村暄悦西街1107铺",
+      "address_precision": "地图平台列出的具体铺位",
+      "phone": null,
+      "hours": null,
+      "average_spend_cny": null,
+      "status": "360地图有同名根品牌、不同业态后缀门店；需核实与云南小食堂是否同一品牌体系",
+      "confidence": "待核实品牌关联",
+      "source_urls": [
+        "https://m.map.360.cn/?new=1&pid=96712f17d4df0111&src=pc_shenbian"
+      ],
+      "recommendation_note_ids": [],
+      "brand_relation_verified": false
+    },
+    {
+      "branch_id": "erjie-guanggang",
+      "name": "广钢店",
+      "district": "荔湾区",
+      "business_area": "广钢新城 / 白鹤洞",
+      "name_as_listed": "二姐小伙夫云南菜·小锅米线(广钢店)",
+      "address": null,
+      "area_hint": "广钢新城，白鹤洞街道越海街周边（关联目录所示附近商户，并非精确店址）",
+      "address_precision": "仅周边目录线索，不能把附近商户或页面地址视为餐厅门牌",
+      "phone": null,
+      "hours": null,
+      "average_spend_cny": null,
+      "status": "地点目录列出同名根品牌但不同业态后缀；品牌归属和营业状态待核实",
+      "confidence": "待核实品牌关联",
+      "source_urls": [
+        "https://gz.city8.com/life/855fde711iy7bcace0_address"
+      ],
+      "recommendation_note_ids": [],
+      "brand_relation_verified": false
+    }
+  ],
+  "uncertainty": "目前广州6条分店/分店线索，4条明确同名商户记录（含有的仅为商业报道），2条关联待核实。不是官方完整门店列表，不能据此断定全部仍在营业。",
+  "excluded_locations_note": "不收录深圳仁恒梦中心等广州市外门店。"
+}
