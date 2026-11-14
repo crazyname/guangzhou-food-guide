@@ -18,12 +18,12 @@ from playwright.sync_api import Error as PWError, sync_playwright
 
 HOSTS = ('xiaohongshu.com', 'rednote.com', 'xhslink.cn', 'xhslink.com')
 NOTE_RE = re.compile(r'/(?:discovery/item|explore)/([0-9a-f]{24})', re.I)
-SLIDES = ('.swiper-slide-active', '.swiper-slide[class*="active"]', '.carousel-item.active', '.note-container .swiper', '.media-container')
-NEXT = ('.swiper-button-next', '.slide-next', '.next-btn', '.carousel-next', '[aria-label="下一张"]', '[aria-label="Next"]')
-COMMENTS = ('.comment-item', '.sub-comment-item', '.comment-list .item', '.comment-container .item')
+SLIDES = ('.swiper-slide-active', '.swiper-slide[class*="active"]', '.carousel-item.active', '.note-container .swiper', '.media-container', '.slider-container')
+NEXT = ('.swiper-button-next', '.slide-next', '.next-btn', '.carousel-next', '.arrow-controller .right', '.arrow-controller .next', '[aria-label="下一张"]', '[aria-label="Next"]')
+COMMENTS = ('.comment-item', '.sub-comment-item', '.parent-comment', '.comment-item-wrap', '.comment-list .item', '.comment-container .item')
 ROOTS = ('.comments-container', '.comment-container', '.comment-list', '#comments')
-PICTURES = ('.comment-img img', '.comment-image img', '.comment-pic img', '.comment-img', '.comment-image', '[class*="comment-image"] img')
-EXPAND = re.compile(r'展开.{0,12}(回复|评论)|更多.{0,8}回复|查看.{0,8}回复|展开更多')
+PICTURES = ('.comment-picture img', '.comment-picture', '.comment-img img', '.comment-image img', '.comment-pic img', '.comment-img', '.comment-image', '[class*="comment-image"] img')
+EXPAND = re.compile(r'展开.{0,12}(回复|评论)|更多.{0,8}回复|查看.{0,8}回复|共\d+条回复|展开更多')
 
 
 def source_url(text: str) -> str:
@@ -286,7 +286,7 @@ def note_metadata(page) -> dict:
                     info['body']=text[:12000]
         except PWError:
             pass
-    for selector in ('.author .name','.user-name','.author-name'):
+    for selector in ('#noteContainer .author-wrapper .name','.author .name','.user-name','.author-name'):
         try:
             loc=page.locator(selector).first
             if visible(loc):
