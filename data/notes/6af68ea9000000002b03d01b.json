@@ -5,23 +5,34 @@
   "record_created_at": "2026-11-15",
   "record_timezone": "Asia/Shanghai",
   "shop": {
-    "name": null,
-    "branch": null,
+    "name": "郑世隆·古法泰茶（SHILON TEA）",
+    "branch": "天环广场店",
     "city": "广州市",
-    "district": null,
-    "business_area": null,
-    "address": null,
+    "district": "天河区",
+    "business_area": "天河路商圈",
+    "address": "中国广东省广州市天河区天河路218号天环广场L2层L220商铺",
     "map_url": null,
     "category": [
-      "甜品",
-      "饮品"
+      "泰式茶饮",
+      "冰饮",
+      "甜品饮品"
     ],
     "average_spend_cny": null,
-    "average_spend_basis": null,
-    "business_hours": null
+    "average_spend_basis": "未查到可靠的人均；其他一般品类单价不可替代该饮品价格或门店人均",
+    "business_hours": "天环官网显示每日10:00–22:00，核实于2026-11-15；门店营业可能临时变化",
+    "official_listing_url": "https://www.parccentral.com.hk/en/restaurants/498",
+    "additional_locations_mentioned": [
+      {
+        "name": "万象城",
+        "city": null,
+        "district": null,
+        "address": null,
+        "verification_status": "作者评论提及，未确定城市及具体门店；不得自动视为广州白鹅潭万象城"
+      }
+    ]
   },
   "recommendation": {
-    "item": "黑芝麻豆奶",
+    "item": "黑芝麻豆奶冰（笔记描述，正式菜单名待核实）",
     "combination": [
       "黑芝麻云顶",
       "豆奶冰",
@@ -29,7 +40,7 @@
     ],
     "source_opinion": "博主称这杯冰集齐了自己喜欢的元素，并表示很好吃。",
     "personal_rating": null,
-    "notes": "博主描述的组合不一定是门店菜单上的完整正式品名。"
+    "notes": "作者描述的黑芝麻云顶、豆奶冰、啵啵组合来自笔记；不能据此认定菜单正式品名或当季售价"
   },
   "source": {
     "platform": "小红书",
@@ -40,36 +51,66 @@
     "source_title_visible": "广州无比美味的黑芝麻豆奶（妈嘟太好吃",
     "screenshot_text": "活久见一杯冰集齐了我喜欢各种元素；黑芝麻云顶＋豆奶冰＋啵啵",
     "evidence": [
-      "用户上传的小红书笔记截图",
-      "小红书短链接的重定向目标可解析出笔记ID"
+      "用户提供的小红书截图",
+      "TinyFish读取网页正文与可见评论",
+      "笔记轮播杯身品牌文字",
+      "天环广场官方 SHILON TEA 商户页",
+      "品牌中文名称独立媒体报道"
     ],
-    "page_read_status": "原笔记网页正文读取受限；未获得完整原文及可能的地点标签",
-    "source_accessed_at": "2026-11-15"
+    "page_read_status": "2026-11-15 通过 TinyFish 读取到原笔记网页正文、轮播图片以及部分可见评论；页面只显示相对编辑时间，发布日期暂未核实",
+    "source_accessed_at": "2026-11-15",
+    "author_replies": [
+      {
+        "quote": "天环 万象城都有的",
+        "topic": "在哪里"
+      },
+      {
+        "quote": "天环有 万象城也有",
+        "topic": "在哪里，甜吗"
+      },
+      {
+        "quote": "深圳有呀！",
+        "topic": "深圳是否有"
+      }
+    ],
+    "verification_urls": [
+      "https://xhslink.cn/o/6fC6qdVSi8A",
+      "https://www.parccentral.com.hk/en/restaurants/498",
+      "https://www.chinaventure.com.cn/news/116-20260109-389693.html"
+    ]
   },
   "verification": {
-    "verified_from_screenshot": [
-      "博主账号",
-      "笔记标题中的广州与黑芝麻豆奶",
-      "黑芝麻云顶＋豆奶冰＋啵啵的推荐组合"
+    "confirmed": [
+      "作者Yisplog与笔记正文",
+      "推荐组合为黑芝麻云顶＋豆奶冰＋啵啵",
+      "天环官方商户目录列有SHILON TEA、L2层L220、广州市天河区天河路218号",
+      "作者在评论区提及天环、万象城与深圳"
+    ],
+    "strongly_supported": [
+      "品牌为郑世隆·古法泰茶（SHILON TEA），由轮播杯身线索、官方天环商户与媒体名称交叉印证"
     ],
     "unverified": [
-      "真实商家/品牌名",
-      "具体分店",
-      "行政区与详细地址",
-      "人均价格",
-      "单品售价",
-      "营业状态",
-      "原笔记其余图片及地点标签"
+      "黑芝麻豆奶在店内的正式产品名称",
+      "这款饮品单品售价",
+      "门店人均",
+      "作者提及的万象城具体城市、具体分店及铺位",
+      "实际当日营业状态",
+      "笔记绝对发表时间"
     ],
-    "name_warning": "“妈嘟太好吃”在标题中是感叹语，不能用作店名。"
+    "notes": "“妈嘟太好吃”是笔记语气词，不是品牌；万象城存在跨城市歧义，不可误关联广州白鹅潭万象城。",
+    "checked_at": "2026-11-15"
   },
   "tags": [
     "广州",
+    "天河区",
+    "天环广场",
+    "郑世隆",
+    "SHILON TEA",
     "黑芝麻",
     "豆奶",
     "豆奶冰",
     "啵啵",
-    "甜品",
-    "冰饮"
+    "饮品",
+    "泰式茶饮"
   ]
 }
