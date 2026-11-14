@@ -97,7 +97,24 @@ def collect_slides(page, directory: Path, maximum: int) -> tuple[list[dict], str
     seen = set()
     items = []
     reason = '未找到下一张按钮，无法证明图片全部采集'
-    for index in range(1, maximum + 1):
+    expected = None
+    for selector in ('.fraction', '.slider-pagination-container', '.swiper-pagination-total'):
+        try:
+            loc = page.locator(selector).first
+            if not loc.count():
+                continue
+            text = loc.inner_text(timeout=300)
+            match = re.search(r'(\d+)\s*/\s*(\d+)', text)
+            if match:
+                expected = int(match.group(2))
+            elif selector == '.swiper-pagination-total':
+                expected = int(text.strip())
+            if expected and expected > 0:
+                break
+        except (PWError, ValueError):
+            continue
+    limit = min(maximum, expected) if expected else maximum
+    for index in range(1, limit + 1):
         dest = directory / f'{index:02}.png'
         digest, source = slide_screenshot(page, dest)
         if digest in seen:
@@ -111,7 +128,8 @@ def collect_slides(page, directory: Path, maximum: int) -> tuple[list[dict], str
             break
         page.wait_for_timeout(750)
     else:
-        reason = f'达到图片上限 {maximum}'
+        reason = (f'与页面轮播总数 {expected} 相符' if expected and limit == expected
+                  else f'达到图片上限 {maximum}，完整性未知')
     return items, reason
 
 
@@ -164,7 +182,7 @@ def expand(page, root, maximum=14) -> int:
     clicks = 0
     for _ in range(maximum):
         try:
-            candidates = root.locator('button,a,span').filter(has_text=EXPAND)
+            candidates = root.locator('button,a,span,.show-more,[class*="show-more"]').filter(has_text=EXPAND)
             chosen = None
             for i in range(min(80, candidates.count())):
                 c = candidates.nth(i)
