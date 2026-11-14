@@ -1,0 +1,75 @@
+{
+  "id": "6af68ea9000000002b03d01b",
+  "status": "想去",
+  "review_status": "未亲自探店",
+  "record_created_at": "2026-11-15",
+  "record_timezone": "Asia/Shanghai",
+  "shop": {
+    "name": null,
+    "branch": null,
+    "city": "广州市",
+    "district": null,
+    "business_area": null,
+    "address": null,
+    "map_url": null,
+    "category": [
+      "甜品",
+      "饮品"
+    ],
+    "average_spend_cny": null,
+    "average_spend_basis": null,
+    "business_hours": null
+  },
+  "recommendation": {
+    "item": "黑芝麻豆奶",
+    "combination": [
+      "黑芝麻云顶",
+      "豆奶冰",
+      "啵啵"
+    ],
+    "source_opinion": "博主称这杯冰集齐了自己喜欢的元素，并表示很好吃。",
+    "personal_rating": null,
+    "notes": "博主描述的组合不一定是门店菜单上的完整正式品名。"
+  },
+  "source": {
+    "platform": "小红书",
+    "author": "Yisplog",
+    "shared_url": "https://xhslink.cn/o/6fC6qdVSi8A",
+    "resolved_note_id": "6af68ea9000000002b03d01b",
+    "published_at": null,
+    "source_title_visible": "广州无比美味的黑芝麻豆奶（妈嘟太好吃",
+    "screenshot_text": "活久见一杯冰集齐了我喜欢各种元素；黑芝麻云顶＋豆奶冰＋啵啵",
+    "evidence": [
+      "用户上传的小红书笔记截图",
+      "小红书短链接的重定向目标可解析出笔记ID"
+    ],
+    "page_read_status": "原笔记网页正文读取受限；未获得完整原文及可能的地点标签",
+    "source_accessed_at": "2026-11-15"
+  },
+  "verification": {
+    "verified_from_screenshot": [
+      "博主账号",
+      "笔记标题中的广州与黑芝麻豆奶",
+      "黑芝麻云顶＋豆奶冰＋啵啵的推荐组合"
+    ],
+    "unverified": [
+      "真实商家/品牌名",
+      "具体分店",
+      "行政区与详细地址",
+      "人均价格",
+      "单品售价",
+      "营业状态",
+      "原笔记其余图片及地点标签"
+    ],
+    "name_warning": "“妈嘟太好吃”在标题中是感叹语，不能用作店名。"
+  },
+  "tags": [
+    "广州",
+    "黑芝麻",
+    "豆奶",
+    "豆奶冰",
+    "啵啵",
+    "甜品",
+    "冰饮"
+  ]
+}
