@@ -1,0 +1,40 @@
+{
+  "brand_id": "shilon-tea",
+  "brand_name": "郑世隆·古法泰茶",
+  "brand_aliases": [
+    "SHILON TEA",
+    "郑世隆"
+  ],
+  "city_scope": "广州市（不收录其他城市）",
+  "updated_at": "2026-11-15",
+  "complete_inventory_confirmed": false,
+  "branch_count_included": 1,
+  "branches": [
+    {
+      "branch_id": "shilon-guangzhou-tianhuan",
+      "name": "天环广场店",
+      "district": "天河区",
+      "business_area": "天河路商圈",
+      "address": "中国广东省广州市天河区天河路218号天环广场L2层L220商铺",
+      "address_precision": "商户准确楼层及铺位",
+      "phone": "15323341001",
+      "hours": "商户页显示每日10:00–22:00；非实时营业承诺",
+      "average_spend_cny": null,
+      "price_band": {
+        "label": "¥40以下",
+        "kind": "OpenRice平台价格档位，非门店人均"
+      },
+      "status": "已查到官方及第三方商户页面，当前营业状态未实时确认",
+      "source_urls": [
+        "https://parccentral.com.hk/en/shop/498",
+        "https://www.openrice.com/zh-cn/guangzhou/r-%E9%83%91%E4%B8%96%E9%9A%86-%E5%A4%A9%E6%B2%B3%E8%B7%AF-%E4%BD%93%E8%82%B2%E4%B8%AD%E5%BF%83-%E6%B3%B0%E5%9B%BD%E8%8F%9C-%E7%94%9C%E5%93%81%E9%A5%AE%E6%96%99-r10541982"
+      ],
+      "recommendation_note_ids": [
+        "6af68ea9000000002b03d01b"
+      ],
+      "comment": "小红书推荐黑芝麻豆奶冰；是否正式菜单名与当前售价待核实"
+    }
+  ],
+  "excluded_locations_note": "仅收录广州；品牌在深圳、佛山、中山等外市门店不在本库范围内。",
+  "uncertainty": "未找到更多已可靠核实的广州分店；名单不保证完全覆盖广州全部分店。"
+}
